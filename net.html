@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Clone</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #000;
+            padding: 20px 0;
+        }
+
+        header img {
+            width: 150px;
+            padding: 0 20px;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        .main-content {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+        .cta-button {
+            background-color: #e50914;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #b5070b;
+        }
+
+        .featured {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .movie-card {
+            width: 200px;
+            margin: 20px;
+        }
+
+        .movie-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #000;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1.2rem;
+        }
+        .niv{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://res.cloudinary.com/nivasredy/image/upload/v1697382805/Netflix-Symbol_lydpfu.png" alt="Netflix Logo" class="niv">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>TV Shows</li>
+                <li>Movies</li>
+                <li>Latest</li>
+                <li>My List</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="main-content">
+        <h1>Welcome to Netflix</h1>
+        <p>Watch amazing movies and TV shows anywhere.</p>
+        <button class="cta-button">Join Now</button>
+    </div>
+    
+    <div class="featured">
+        <div class="movie-card">
+            <img src="https://res.cloudinary.com/nivasredy/image/upload/v1697382963/The-Best-Feel-Good-Movies-on-Netflix-Right-Now_m27fkr.jpg" alt="Movie 1">
+        </div>
+        <div class="movie-card">
+            <img src="https://res.cloudinary.com/nivasredy/image/upload/v1697382963/most-suspenseful-movies-netflix-2022_pue4fn.jpg" alt="Movie 2">
+        </div>
+        <div class="movie-card">
+            <img src="https://res.cloudinary.com/nivasredy/image/upload/v1697382963/glass-onion-daniel-craig-pale-blue-eye-christian-bale-the-good-nurse-jessica-chastain-do-revenge-camil-mendes-viola-davis-from-ma-rainey-s_q1sim9.jpg" alt="Movie 3">
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
